@@ -1,0 +1,49 @@
+{
+  "name": "antd-list",
+  "version": "1.0.0",
+  "description": "Extracted List component from Ant Design UI version 6",
+  "keywords": [
+    "antd",
+    "ant-design",
+    "list",
+    "component",
+    "react",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src --ext .ts,.tsx",
+    "prepublishOnly": "npm run build",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@rc-component/util": "^1.0.0",
+    "clsx": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "antd": "^6.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
