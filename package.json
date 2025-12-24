@@ -27,8 +27,9 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@rc-component/util": "^1.0.0",
-    "clsx": "^2.0.0"
+    "@rc-component/util": "^1.6.0",
+    "antd": "^6.1.1",
+    "clsx": "^2.1.1"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
